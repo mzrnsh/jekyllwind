@@ -9,16 +9,18 @@ issues during setup, try to follow the steps laid out in there, it may help.
 
 ### Option 1
 
-1. Clone this repository: `git clone git@github.com:mzrnsh/jekyllwind.git YOUR_PROJECT && cd YOUR_PROJECT`
-2. Install Ruby gems: `bundle install`
-3. Install Node packages: `yarn` or `npm install`
+Run the following commands in your terminal:
+
+1. Clone the repository: `git clone git@github.com:mzrnsh/jekyllwind.git YOUR_PROJECT && cd YOUR_PROJECT`
+2. Install Ruby gems: `bundle`
+3. Install Node packages: `yarn`
 
 That's it, you are ready 🎉
 
 ### Option 2
 
-Alternatively, you can use the "Use this template" button at the top of this
-page to create a fresh repository under your account based on this one and take
+Alternatively, click the "Use this template" button at the top of this page
+to create a fresh repository under your account based on this one and take
 it from there.
 
 ## Contribution

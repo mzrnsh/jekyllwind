@@ -7,11 +7,19 @@ issues during setup, try to follow the steps laid out in there, it may help.
 
 ## Installation
 
-1. Download this repository into the folder where you wish to develop your website
-2. From your terminal, CD to that folder and run `bundle`
-3. Now run `yarn` or `npm install`
+### Option 1
+
+1. Clone this repository: `git clone git@github.com:mzrnsh/jekyllwind.git YOUR_PROJECT && cd YOUR_PROJECT`
+2. Install Ruby gems: `bundle install`
+3. Install Node packages: `yarn` or `npm install`
 
 That's it, you are ready 🎉
+
+### Option 2
+
+Alternatively, you can use the "Use this template" button at the top of this
+page to create a fresh repository under your account based on this one and take
+it from there.
 
 ## Contribution
 

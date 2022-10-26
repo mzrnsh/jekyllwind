@@ -13,7 +13,7 @@ Create a directory for your project and download the latest Jekyllwind in it.
 A fancy way to do it is this:
 
 ```shell
-mkdir YOUR_PROJECT && cd YOUR_PROJECT
+mkdir YOUR_PROJECT && cd YOUR_PROJECT && git init
 curl -L https://codeload.github.com/mzrnsh/jekyllwind/tar.gz/refs/tags/v1.0.0 | tar -xz --strip-components=1
 ```
 

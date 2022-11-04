@@ -34,6 +34,16 @@ yarn
 
 That's it, you are ready 🎉
 
+## Deployment tips
+
+### 1. Netlify
+
+You may need to alter the default build command to `JEKYLL_ENV=production bundle exec jekyll build`. More details available [here](https://mzrn.sh/2022/04/09/starting-a-blank-jekyll-site-with-tailwind-css-in-2022/#61-netlify).
+
+### 2. GitHub Pages
+
+Since this boilerplate uses PostCSS, it won't work on GitHub Pages out of box. Instead, you will need to use GitHub Actions. Step-by-step instructions available at [OhSoStatic Jekyll](https://jekyll.ohsostatic.com/devops/how-to-use-tailwind-css-with-jekyll-on-github-pages).
+
 ## Contribution
 
 Feel free to send PRs or beers 🙌

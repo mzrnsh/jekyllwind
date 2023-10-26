@@ -42,7 +42,7 @@ You may need to alter the default build command to `JEKYLL_ENV=production bundle
 
 ### 2. GitHub Pages
 
-Since this boilerplate uses PostCSS, it won't work on GitHub Pages out of box. Instead, you will need to use GitHub Actions. Step-by-step instructions available at [OhSoStatic Jekyll](https://jekyll.ohsostatic.com/devops/how-to-use-tailwind-css-with-jekyll-on-github-pages).
+Since this boilerplate uses PostCSS, it won't work on GitHub Pages out of box. Instead, you will need to use GitHub Actions. Step-by-step instructions available [here](https://mzrn.sh/2023/10/26/how-to-use-tailwind-css-with-jekyll-on-github-pages/).
 
 ## Contribution
 

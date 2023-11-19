@@ -1,6 +1,6 @@
-url: ''
+url: 'https://seven2charlie.com'
 baseurl: ''
-title: 'Jekyllwind'
+title: 'Seven Two Charlie'
 
 plugins:
   - jekyll-postcss

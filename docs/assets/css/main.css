@@ -5,12 +5,16 @@
 @tailwind components;
 @tailwind utilities;
 
-.shadow-effect {
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+dd {
+  margin-left: 2rem;
 }
 
-@layer components {
-  .btn-vintage {
-    @apply bg-vintageSecondary text-white py-2 px-4 border border-transparent rounded shadow-effect;
-  }
+.training-options {
+  @apply flex flex-wrap gap-2;
+}
+
+.training-options li {
+  @apply text-white px-4 py-2 rounded w-40;
+
+  background-color: #a39470;
 }

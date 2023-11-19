@@ -5,6 +5,22 @@
 @tailwind components;
 @tailwind utilities;
 
+.logo-title {
+  width: 80rem;
+}
+
+@media (max-width: 768px) {
+  .logo-image {
+    max-height: 120px;
+    width: auto;
+    margin-bottom: 2rem;
+  }
+}
+
+a {
+  color: #7Bafd4;
+}
+
 dd {
   margin-left: 2rem;
 }
@@ -17,4 +33,30 @@ dd {
   @apply text-white px-4 py-2 rounded w-40;
 
   background-color: #a39470;
+}
+
+.home-section {
+  @apply mt-4;
+}
+
+.home-section h2 {
+  @apply text-vintagePrimaryDarkest text-center text-xl;
+}
+
+.home-section .about-me {
+  @apply mr-2 ml-2;
+}
+
+.home-section .about-me h3 {
+  @apply text-vintagePrimaryDarkest text-center text-lg;
+}
+
+footer {
+  @apply mt-4;
+}
+
+.map-embed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

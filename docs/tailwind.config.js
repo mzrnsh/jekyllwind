@@ -10,15 +10,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        vintagePrimary: '#c9ae92',
-        vintagePrimaryDarker: '#b59c7a',
-        vintagePrimaryDarkerStill: '#a39470',
-        vintagePrimaryDarkest: '#8f7c66',
-        vintageSecondary: '#7e2f1a',
-        vintageBackground: '#f5f5f5',
+        classicPrimary: '#c9ae92',
+        classicPrimaryDarker: '#b59c7a',
+        classicPrimaryDarkerStill: '#a39470',
+        classicPrimaryDarkest: '#8f7c66',
+        classicSecondary: '#7e2f1a',
+        classicBackground: '#f5f5f5',
       },
       fontFamily: {
-        vintage: ['Bebas Neue', 'sans-serif'],
+        classic: ['Bebas Neue', 'sans-serif'],
       },
     },
   },

@@ -1,6 +1,6 @@
 url: 'https://seven2charlie.com'
 baseurl: ''
-title: 'Seven Two Charlie'
+title: 'Total Tailwheel'
 
 plugins:
   - jekyll-postcss

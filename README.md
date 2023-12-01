@@ -1,4 +1,4 @@
-# Seven Two Charlie, LLC
+# Total Tailwheel, LLC
 
 Flight training website.
 

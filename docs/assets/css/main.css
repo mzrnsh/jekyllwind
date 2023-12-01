@@ -40,7 +40,7 @@ dd {
 }
 
 .home-section h2 {
-  @apply text-vintagePrimaryDarkest text-center text-xl;
+  @apply text-classicPrimaryDarkest text-center text-xl;
 }
 
 .home-section .about-me {
@@ -48,7 +48,7 @@ dd {
 }
 
 .home-section .about-me h3 {
-  @apply text-vintagePrimaryDarkest text-center text-lg;
+  @apply text-classicPrimaryDarkest text-center text-lg;
 }
 
 footer {

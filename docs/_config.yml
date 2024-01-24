@@ -1,6 +1,6 @@
-url: 'https://seven2charlie.com'
+url: 'https://totaltailwheel.com'
 baseurl: ''
-title: 'Total Tailwheel'
+title: 'Total Tailwheel, LLC'
 
 plugins:
   - jekyll-postcss

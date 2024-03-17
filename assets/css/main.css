@@ -5,6 +5,34 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply bg-[#D2B48C]; /* Tan background */
+  @apply text-classicText;
+}
+
+.main-content {
+  @apply mx-auto max-w-4xl bg-white shadow-lg; /* Example with white bg and shadow for depth */
+}
+
+/* Responsive centering with padding on smaller screens */
+@media (min-width: 640px) {
+  .main-content {
+    @apply p-4;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-content {
+    @apply p-8;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-content {
+    @apply p-12;
+  }
+}
+
 .logo-title {
   width: 80rem;
 }
@@ -36,11 +64,15 @@ dd {
 }
 
 .home-section {
-  @apply mt-4;
+  @apply mt-8;
+}
+
+.home-section dt {
+  @apply text-thirdTitle;
 }
 
 .home-section h2 {
-  @apply text-classicPrimaryDarkest text-center text-xl;
+  @apply text-center text-xl text-subtitle;
 }
 
 .home-section .about-me {
@@ -48,7 +80,15 @@ dd {
 }
 
 .home-section .about-me h3 {
-  @apply text-classicPrimaryDarkest text-center text-lg;
+  @apply text-center text-lg;
+}
+
+.home-section .rates dt {
+  @apply text-lg;
+}
+
+.home-section .rates dd {
+  @apply ml-4;
 }
 
 footer {

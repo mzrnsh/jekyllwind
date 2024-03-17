@@ -10,11 +10,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        classicPrimary: '#c9ae92',
-        classicPrimaryDarker: '#b59c7a',
-        classicPrimaryDarkerStill: '#a39470',
-        classicPrimaryDarkest: '#8f7c66',
-        classicSecondary: '#7e2f1a',
+        title: '#7e2f1a',
+        subtitle: '#8a331c',
+        thirdTitle: '#8c5841',
+        classicText: '#8f7c66',
         classicBackground: '#f5f5f5',
       },
       fontFamily: {
